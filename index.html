@@ -1,89 +1,231 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-    <title>Portfolio</title>
-  </head>
-  <body>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <nav class="navbar navbar-expand-md navbar-dark">
-      <a href="#" class="navbar-brand">
-        <h3 class="mb-0">Portfolio</h3>
-      </a>
-      <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Work</a>
-          </li>
-          <li class="nav-item">
-            <a href="" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    
-    <section id="showcase" class="d-flex justify-content-center align-items-center">
-      <div id="overlay"></div>
-      <div id="header" class="container text-white text-center">
-        <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(31).jpg" alt="Avatar" class="md-avatar rounded-circle size-4">
-        <h1 class="display-2">MAYDEL REGO</h1>
-        <p class="lead">Full Stack Web Developer</p>
-      </div>
-    </section>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Portfolio</title>
+</head>
 
-    <section id="about" class="bg-light pt-4" >
+<body>
+
+  <!-- navBar -->
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <a href="#" class="navbar-brand">
+      <h3 class="mb-0">Portfolio</h3>
+    </a>
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a href="#work" class="nav-link">Work</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact-me" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Me section -->
+  <section id="showcase" class="d-flex justify-content-center align-items-center">
+    <div id="overlay"></div>
+    <div id="header" class="container text-white text-center">
+      <img src="./img/profile.jpg" alt="Avatar" class="md-avatar rounded-circle size-4" id="avatar">
+      <h1 class="display-2">MAYDEL REGO</h1>
+      <p class="lead">Full Stack Web Developer</p>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section id="about" class="bg-light pt-4">
+    <div class="container text-center">
+      <h1>About<span class="ml-3"></h1>
+      <img src="./img/chat.png" alt="" id="icon" class="mb-2">
+      <p class="lead mb-5">
+        Front-End Web Developer leveraging a background in psychology to build a more intuitive user experience on the
+        web.
+        Currently student of the KU Coding Bootcamp in Kansas, with newly developed skills in HTML5, CSS3, JavaScript,
+        React.js, API Data, and responsive web design. Very passionate about developing apps, with a focus on
+        mobile-first design
+        and development. With each project, my aim is to best engage my audience for an impactful user-experience. I
+        applied aspects
+        of UX and agile development in a recent project where I worked in a team of four to develop a single-page app
+        that helps
+        local cocktail lovers to search and know more about Drinks, ingridients and much more. Excited to leverage
+        skills in the future as
+        part of a fast-paced, quality-driven team in order to build better experiences on the web.
+      </p>
+
+      <hr>
+
+    </div>
+
+    <!-- skills section -->
+    <section id="skills" class="bg-light pt-4 mb-5">
       <div class="container text-center">
-        <h1 class="display-3">About<span class="ml-3"><i class="fas fa-info-circle"></i></span></h1>
-        <p class="lead">
-          Front-End Web Developer leveraging a background in psychology to build a more intuitive user experience on the web. 
-          Recently earned a certificate in Full Stack Development from the University of Central Florida, with newly developed 
-          skills in JavaScript, CSS, React.js, and responsive web design. Known as an innovative problem-solver passionate about 
-          developing apps, with a focus on mobile-first design and development. With each project, my aim is to best engage my 
-          audience for an impactful user-experience. I applied aspects of UX and agile development in a recent project where I 
-          worked in a team of four  to develop a single-page MERN app that helps local business owners track their sales, 
-          inventory and attendance at specialty events. Excited to leverage skills in the future as part of a fast-paced, 
-          quality-driven team in order to build better experiences on the web.
-        </p>
-      </div> 
-     
-      <section id="about" class="bg-light pt-4">
-        <div class="container text-center">
-          <h1 class="display-3">Skills<span class="ml-3"><i class="fas fa-info-circle"></i></span></h1>
-          
-        </div> 
-      
+        <h1>Skills</h1>
+        <img src="./img/candidate.png" alt="" id="icon" class="mb-5">
+        <div class="row">
+          <div class="col-6 mb-5">
+            <p class="lead">HTML</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="col-6 mb-5">
+            <p class="lead">CSS</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-6">
+            <p class="lead">JavaScript</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <p class="lead">NodeJS</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <hr>
+
+      </div>
+
     </section>
 
-    
+    <!-- work section -->
+    <section id="work" class="bg-light pt-4">
+      <div class="container text-center">
+        <h1>Work</h1>
+        <img src="./img/code.png" alt="" id="icon" class="mb-2">
 
-    
-    
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="work-container">
+              <img src="./img/password_generator.PNG" alt="" class="img-fluid image">
+              <div class="middle">
+                <a class="btn btn-info work-btn" target="blank" href="https://maidelrego.github.io/password_generator/." role="button">View Project</a>
+                <a class="btn btn-info work-btn" target="blank" href="https://github.com/maidelrego/password_generator" role="button">View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="work-container">
+              <img src="./img/code_quiz.PNG" alt="" class="img-fluid image">
+              <div class="middle">
+                <a class="btn btn-info work-btn" target="blank" href="https://maidelrego.github.io/Code_Quiz/" role="button">View Project</a>
+                <a class="btn btn-info work-btn" target="blank" href="https://github.com/maidelrego/Code_Quiz" role="button">View Code</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <div class="work-container">
+              <img src="./img/day-planer.PNG" alt="" class="img-fluid image">
+              <div class="middle">
+                <a class="btn btn-info work-btn" target="blank" href="https://maidelrego.github.io/Day_Planner/." role="button">View Project</a>
+                <a class="btn btn-info work-btn" target="blank" href="https://maidelrego.github.io/Day_Planner/" role="button">View Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="work-container">
+              <img src="./img/weather-dashboard.PNG" alt="" class="img-fluid image">
+              <div class="middle">
+                <a class="btn btn-info work-btn" target="blank" href="https://maidelrego.github.io/Wheather_Dashboard/" role="button">View Project</a>
+                <a class="btn btn-info work-btn" target="blank" href="https://github.com/maidelrego/Wheather_Dashboard" role="button">View Code</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row mb-4 mt-5">
+          <div class="col-12">
+            <h1>My First Big Project</h1>
+            <div class="work-container">
+              <img src="./img/project1.PNG" alt="" class="img-fluid image">
+              <div class="middle">
+                <a class="btn btn-info work-btn" target="blank" href="https://mx-jeckal.github.io/Drinky-Links/" role="button">View Project</a>
+                <a class="btn btn-info work-btn" target="blank" href="https://github.com/Mx-Jeckal/Drinky-Links" role="button">View Code</a>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </section>
 
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+    <div class="footer">
+      <div class="container d-flex justify-content-center" id="contact-me">
+        <a href=""><span><img src="./img/github.png" alt="" id="social-media"></span></a>
+        <a href=""><span><img src="./img/linkedin.png" alt="" id="social-media"></span></a>
+        <a href=""><span><img src="./img/mail.png" alt="" id="social-media"></span></a>
+        <a href=""><span><img src="./img/facebook.png" alt="" id="social-media"></span></a>
+      </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
+</body>
+
 </html>

@@ -10,6 +10,10 @@ body {
     z-index: 3; 
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .navbar .navbar-brand h3 {
     font-weight: 100; 
 }
@@ -27,6 +31,23 @@ body {
     background: url("./img/background.jpg") bottom center/cover no-repeat;
     min-height: 100vh;
     position: relative; 
+}
+
+#avatar{
+    width: 200px;
+    height: 200px;
+}
+
+#icon{
+    width: 150px;
+    height: 150px;
+}
+
+#social-media{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin-top: 25px;
 }
 
 #showcase #header {
@@ -48,9 +69,53 @@ body {
     line-height: 1; 
 }
 
-
-
 #showcase #book {
     font-size: 1.5rem;
     border-radius: 2rem; 
 }
+
+.footer{
+    background-color: #222;
+    height: 100px;
+}
+
+/* work-Img CSS */
+/* _______________________________________________ */
+
+.work-container {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 20px;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .work-container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .work-container:hover .middle {
+    opacity: 1;
+  }
+  
+  .work-btn {
+    width: 120px;
+  }
+
